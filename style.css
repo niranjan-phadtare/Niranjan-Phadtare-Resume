@@ -29,6 +29,10 @@
       margin: 0 auto 20px;
       display: block;
       object-fit: cover;
+      transition: transform 0.5s ease, width 0.5s ease, height 0.5s ease;
+    }
+    .left img.hovered{
+      transform: scale(1.1);
     }
 
     .left h1 {
@@ -67,7 +71,25 @@
     .left-section ul li {
       margin-bottom: 8px;
     }
-
+    .dwn{
+      color: antiquewhite;
+    }
+    .btn{
+      
+      display: inline-block;
+      padding: 10px 10px;
+      background-color: wheat;
+      color: white;
+      text-decoration: solid;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+    .btn :hover{
+      background-color: #eef2f6;
+      transform: scale(1.05);
+    }
+    
     .right {
       width: 40%;
       background-color: #e3f2fd;
